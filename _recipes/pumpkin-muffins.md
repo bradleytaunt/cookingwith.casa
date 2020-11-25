@@ -1,5 +1,5 @@
 ---
-title: Recipe Test
+title: Pumpkin Muffins
 time: 25 minutes
 note: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -12,6 +12,11 @@ layout: post
 
 ### Ingredients
 
+#### Dough
+- Item ingredient
+- Item ingredient
+
+#### Filling
 - Item ingredient
 - Item ingredient
 

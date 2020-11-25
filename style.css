@@ -1,34 +1,83 @@
 * {
     box-sizing: border-box;
 }
- body {
-    font: 18px/1.5 "Helvetica", "Arial", sans-serif;
+body {
+    font: 16px/1.48 "Helvetica", "Arial", sans-serif;
     margin: 0 auto;
-    max-width: 50rem;
+    max-width: 40rem;
     padding: 1rem;
     width: 100%;
- }
+}
 
- a,a:visited {
+a,a:visited {
     color: blue;
- }
+}
 
- h1 {
+h1 {
     margin-bottom: 0;
- }
+}
 
- hr {
+h3:not(:first-of-type) {
+    margin-top: 2rem;
+}
+
+h4 {
+    color: #1e1e1e;
+    margin-bottom: 0;
+    padding-left: 1.5rem;
+    text-transform: uppercase;
+}
+
+hr {
     background: grey;
     border: 0;
     height: 1px;
     margin: 2rem auto;
- }
+}
 
- header {
+header {
     border-bottom: 1px solid lightgrey;
     margin: 0 auto 3rem;
-    padding: 1rem 0;
- }
- header h2 {
+    padding: 1rem 0 1.5rem;
+}
+header h2 {
     margin: 0;
- }
+}
+
+blockquote {
+    background: rgba(173, 216, 230, 0.3);
+    border-left: 8px solid cornflowerblue;
+    margin: 2rem 0 0 0;
+    padding: 1rem;
+}
+blockquote h5 {
+    color: blue;
+    font-size: 18px;
+    margin: 0 0 0.5rem;
+}
+blockquote p {
+    font-family: serif;
+    font-style: italic;
+    margin: 0;
+}
+
+.recipe-post {
+    margin-bottom: 4rem;
+}
+.recipe-post h3 {
+    background: #eee;
+    border-left: 8px solid lightgrey;
+    line-height: 1;
+    padding: 0.9rem 0 0.6rem 0.6rem;
+}
+.recipe-post h4:not(:first-of-type) {
+    margin-top: 2rem;
+}
+
+ul.recipe-list {
+    margin: 0;
+    padding: 0 0 0 2rem;
+}
+ul.recipe-list li {
+    margin: 0 0 0.6rem;
+}
