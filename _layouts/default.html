@@ -6,7 +6,7 @@
   <body>
     {% include header.html %}
     <main>
-        <ul>
+        <ul class="recipe-list">
         {% for item in site.recipes %}
             <li>
                 <a href="{{ item.url }}">{{ item.title }}</a>
