@@ -64,6 +64,9 @@ blockquote p {
 .recipe-post {
     margin-bottom: 4rem;
 }
+.recipe-post h1 {
+    margin-bottom: 2rem;
+}
 .recipe-post h3 {
     background: #eee;
     border-left: 8px solid lightgrey;
