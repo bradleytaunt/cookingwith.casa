@@ -29,7 +29,7 @@ h4 {
 }
 
 hr {
-    background: grey;
+    background: lightgrey;
     border: 0;
     height: 1px;
     margin: 2rem auto;
@@ -76,7 +76,8 @@ blockquote p {
 .recipe-post h4:not(:first-of-type) {
     margin-top: 2rem;
 }
-.recipe-post ol li {
+.recipe-post ol li,
+.recipe-post ul li {
     margin-bottom: 1rem;
 }
 

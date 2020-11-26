@@ -6,8 +6,18 @@
   <body>
     {% include header.html %}
     <main>
+      <h2>Snacks</h2>
         <ul class="recipe-list">
-        {% for item in site.recipes %}
+        {% for item in site.snacks %}
+            <li>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        <hr>
+        <h2>Desserts</h2>
+        <ul class="recipe-list">
+        {% for item in site.desserts %}
             <li>
                 <a href="{{ item.url }}">{{ item.title }}</a>
             </li>
