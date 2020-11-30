@@ -9,7 +9,7 @@ layout: post
 
 #### Cake
 
-- 2 cups o flour
+- 2 cups of flour
 - 2 tsp of baking powder
 - 1 tsp of baking soda
 - 2 tsp of cinnamon
@@ -33,7 +33,7 @@ layout: post
 
 ### Instructions
 
-1. Grease and flour one 13x9 inches OR 2x8 inches pan
+1. Grease and flour one 13x9 inches *or* 2x8 inches pan
 2. Mix dry ingredients
 3. Mix eggs, sugar, oil and vanilla. Pour over dry ingredients. Stir until just moistened, then add carrots, pineapple and pecans.
 4. Spread into prepared pan

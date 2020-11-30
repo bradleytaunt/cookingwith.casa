@@ -43,6 +43,13 @@ header {
 header h2 {
     margin: 0;
 }
+header h2 a, header h2 a:visited {
+    color: currentColor;
+}
+header svg {
+    position: relative;
+    top: 3px;
+}
 
 blockquote {
     background: rgba(173, 216, 230, 0.3);
