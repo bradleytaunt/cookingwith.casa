@@ -1,0 +1,2 @@
+# Redirect default Netlify subdomain to personal domain
+https://cookingwithcasa.netlify.com/* https://cookingwith.casa/:splat 301!
