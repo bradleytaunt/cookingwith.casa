@@ -15,6 +15,15 @@
         {% endfor %}
         </ul>
         <hr>
+        <h2>Meals</h2>
+        <ul class="recipe-list">
+        {% for item in site.meals %}
+            <li>
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+        </ul>
+        <hr>
         <h2>Desserts</h2>
         <ul class="recipe-list">
         {% for item in site.desserts %}
