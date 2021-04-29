@@ -95,3 +95,15 @@ ul.recipe-list {
 ul.recipe-list li {
     margin: 0 0 0.6rem;
 }
+
+footer {
+    border-top: 1px solid grey;
+    margin: 8rem auto;
+    padding: 1rem 0 0;
+}
+
+@media (prefers-color-scheme: dark) {
+    body{background:#2d2d2d;filter:invert(1);}
+    header h2 span,img,pre,iframe{filter:invert(1);}
+    .recipe-post h3{border-color:grey;}
+}
