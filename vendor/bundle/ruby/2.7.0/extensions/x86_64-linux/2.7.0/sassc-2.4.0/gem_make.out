@@ -1,11 +1,11 @@
-current directory: /workspaces/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/opt/ruby/2.7.2/bin/ruby -I /opt/ruby/2.7.2/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210818-2423-7zr7zn.rb extconf.rb
+current directory: /workspace/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
+/home/gitpod/.rvm/rubies/ruby-2.7.3/bin/ruby -I /home/gitpod/.rvm/rubies/ruby-2.7.3/lib/ruby/site_ruby/2.7.0 -r ./siteconf20210915-4309-13bs8w4.rb extconf.rb
 creating Makefile
 
-current directory: /workspaces/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
+current directory: /workspace/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make DESTDIR\= clean
 
-current directory: /workspaces/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
+current directory: /workspace/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make DESTDIR\=
 compiling ./libsass/src/ast.cpp
 compiling ./libsass/src/ast2c.cpp
@@ -75,6 +75,6 @@ compiling ./libsass/src/util_string.cpp
 compiling ./libsass/src/values.cpp
 linking shared-object sassc/libsass.so
 
-current directory: /workspaces/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
+current directory: /workspace/cookingwith.casa/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make DESTDIR\= install
-/usr/bin/install -c -m 0755 libsass.so ./.gem.20210818-2423-1us7azc/sassc
+/usr/bin/install -m 0755 libsass.so ./.gem.20210915-4309-1hfaln8/sassc
