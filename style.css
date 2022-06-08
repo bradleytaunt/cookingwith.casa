@@ -22,7 +22,6 @@ h3:not(:first-of-type) {
 }
 
 h4 {
-    color: #1e1e1e;
     margin-bottom: 0;
     padding-left: 1.5rem;
     text-transform: uppercase;
@@ -75,10 +74,10 @@ blockquote p {
     margin-bottom: 2rem;
 }
 .recipe-post h3 {
-    background: #eee;
-    border-left: 8px solid lightgrey;
+    background: lightgrey;
+    color: black;
     line-height: 1;
-    padding: 0.9rem 0 0.6rem 0.6rem;
+    padding: 0.6rem;
 }
 .recipe-post h4:not(:first-of-type) {
     margin-top: 2rem;
@@ -102,8 +101,9 @@ footer {
     padding: 1rem 0 0;
 }
 
-@media (prefers-color-scheme: dark) {
-    body{background:#2d2d2d;filter:invert(1);}
-    header h2 span,img,pre,iframe{filter:invert(1);}
-    .recipe-post h3{border-color:grey;}
+@supports (color-scheme: dark light) {
+    @media screen and (prefers-color-scheme: dark) {
+        a {color: #9e9eff;}
+        a:visited {color: #d0adf0;}
+    }
 }
