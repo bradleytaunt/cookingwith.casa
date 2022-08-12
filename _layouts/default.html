@@ -6,32 +6,19 @@
   <body>
     {% include header.html %}
     <main>
-      <h2>Snacks</h2>
-        <ul class="recipe-list">
-        {% for item in site.snacks %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
+        {% for collection in site.collections %}
+            {% if collection.label != 'posts' %}
+                <h2>{{ collection.label }}</h2>
+                <ul class="recipe-list">
+                {% for item in site[collection.label] %}
+                    <li>
+                        <a href="{{ item.url }}">{{ item.title }}</a>
+                    </li>
+                {% endfor %}
+                </ul>
+                <hr>
+            {% endif %}
         {% endfor %}
-        </ul>
-        <hr>
-        <h2>Meals</h2>
-        <ul class="recipe-list">
-        {% for item in site.meals %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
-        <hr>
-        <h2>Desserts</h2>
-        <ul class="recipe-list">
-        {% for item in site.desserts %}
-            <li>
-                <a href="{{ item.url }}">{{ item.title }}</a>
-            </li>
-        {% endfor %}
-        </ul>
     </main>
     {% include footer.html %}
   </body>

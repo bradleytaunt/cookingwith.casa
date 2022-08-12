@@ -67,6 +67,13 @@ blockquote p {
     margin: 0;
 }
 
+main h2 {
+    text-transform: capitalize;
+}
+main hr:last-of-type {
+    display: none;
+}
+
 .recipe-post {
     margin-bottom: 4rem;
 }
